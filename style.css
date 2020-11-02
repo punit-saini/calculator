@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(41, 41, 56);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#rows {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(41, 41, 56);
+    margin-top: 40px;
+
+}
+
+
+.screen {
+    height: 100px;
+    border-bottom: 2px solid lightgrey;
+    background-color: #eeeeee;
+
+}
+
+.row {
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+#rows .row5 {
+    justify-content: flex-start;
+}
+
+.row5 .inner5 {
+    width: 24.7%;
+}
+
+
+div[class^="inner"] {
+    background-color: #eeeeee;
+    border: .1px solid black;
+    width: 25%;
+    padding: 4px 0px;
+    color: black;
+    background-color: rgb(179, 176, 174);
+    cursor: pointer;
+}
+
+#rows .inner1 {
+    background-color: orange;
+}
+
+#rows .row4 div:nth-child(4) {
+    background-color: green;
+}
+
+#rows .row5>div {
+    background-color: red;
+}
+
+#show {
+    margin: auto;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 54px;
+    overflow: scroll;
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-right: 3px;
+}
